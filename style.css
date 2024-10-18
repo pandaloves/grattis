@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background: #020202;
+    cursor: crosshair;
+  }
+  canvas{display:block}
+  #greeting {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: 900;
+  }
+  h5 {
+    margin-top: -20px;
+    font-size: 1em;
+    font-weight: 700;
+  }
